@@ -4,4 +4,11 @@ config:
   chmod_on_import: true
   dotpath: dotfiles
 dotfiles:
+  f_vimrc:
+    src: vimrc
+    dst: ~/.vimrc
+    chmod: '644'
 profiles:
+  garuda:
+    dotfiles:
+    - f_vimrc
