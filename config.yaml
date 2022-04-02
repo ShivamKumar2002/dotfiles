@@ -20,6 +20,10 @@ dotfiles:
     src: config/fish
     dst: ~/.config/fish
     chmod: '700'
+  d_kitty:
+    src: config/kitty
+    dst: ~/.config/kitty
+    chmod: '755'
 profiles:
   garuda:
     dotfiles:
@@ -27,3 +31,4 @@ profiles:
     - f_gitconfig
     - f_gtkrc-2.0
     - d_fish
+    - d_kitty
