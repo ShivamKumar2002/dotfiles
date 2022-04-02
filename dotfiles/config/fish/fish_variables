@@ -1,0 +1,44 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export ANDROID_HOME:/home/shivam/Android/Sdk
+SETUVAR --export JAVA_HOME:/usr/lib/jvm/default
+SETUVAR --export LIBVIRT_DEFAULT_URI:qemu\x3a///system
+SETUVAR --export NVM_DIR:/home/shivam/\x2envm
+SETUVAR __done_min_cmd_duration:10000
+SETUVAR __done_notification_urgency_level:low
+SETUVAR __fish_initialized:3100
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/home/shivam/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/shivam/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/shivam/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/shivam/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/shivam/\x2econfig/fish/functions/nvm\x2efish\x1e/home/shivam/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/shivam/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:reitzig/sdkman\x2dfor\x2dfish\x1ejorgebucaran/nvm\x2efish
+SETUVAR _fisher_reitzig_2F_sdkman_2D_for_2D_fish_files:/home/shivam/\x2econfig/fish/functions/sdk\x2efish\x1e/home/shivam/\x2econfig/fish/conf\x2ed/sdk\x2efish\x1e/home/shivam/\x2econfig/fish/completions/sdk\x2efish
+SETUVAR fish_color_autosuggestion:BD93F9
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_command:F8F8F2
+SETUVAR fish_color_comment:6272A4
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:50FA7B
+SETUVAR fish_color_error:FFB86C
+SETUVAR fish_color_escape:00a6b2
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:00a6b2
+SETUVAR fish_color_param:FF79C6
+SETUVAR fish_color_quote:F1FA8C
+SETUVAR fish_color_redirection:8BE9FD
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:normal
+SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_user_paths:/home/shivam/\x2econfig/yarn/global/node_modules/\x2ebin\x1e/home/shivam/\x2ecargo/bin\x1e/home/shivam/\x2econfig/composer/vendor/bin\x1e/home/shivam/\x2edotnet\x1e/home/shivam/Android/Sdk/platform\x2dtools\x1e/home/shivam/Android/Sdk/tools/bin\x1e/home/shivam/Android/Sdk/tools\x1e/home/shivam/Android/Sdk/emulator\x1e/home/shivam/\x2elocal/share/platform\x2dtools\x1e/home/shivam/\x2elocal/bin\x1e/home/shivam/\x2elocal/share/gem/ruby/3\x2e0\x2e0/bin\x1e/home/shivam/go/bin
+SETUVAR nvm_data:/home/shivam/\x2elocal/share/nvm
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist

@@ -16,9 +16,14 @@ dotfiles:
     src: gtkrc-2.0
     dst: ~/.gtkrc-2.0
     chmod: '644'
+  d_fish:
+    src: config/fish
+    dst: ~/.config/fish
+    chmod: '700'
 profiles:
   garuda:
     dotfiles:
     - f_vimrc
     - f_gitconfig
     - f_gtkrc-2.0
+    - d_fish
