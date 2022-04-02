@@ -8,7 +8,12 @@ dotfiles:
     src: vimrc
     dst: ~/.vimrc
     chmod: '644'
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
+    chmod: '644'
 profiles:
   garuda:
     dotfiles:
     - f_vimrc
+    - f_gitconfig

@@ -1,0 +1,17 @@
+[user]
+	name = Shivam Kumar
+	email = kumar.shivam.jarvis@gmail.com
+[core]
+	autocrlf = input
+	editor = vim
+[commit]
+	gpgsign = true
+	signingkey = E3914EC2C87B7513
+[credential]
+	helper = store
+[alias]
+	c = cherry-pick
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
