@@ -12,8 +12,13 @@ dotfiles:
     src: gitconfig
     dst: ~/.gitconfig
     chmod: '644'
+  f_gtkrc-2.0:
+    src: gtkrc-2.0
+    dst: ~/.gtkrc-2.0
+    chmod: '644'
 profiles:
   garuda:
     dotfiles:
     - f_vimrc
     - f_gitconfig
+    - f_gtkrc-2.0
