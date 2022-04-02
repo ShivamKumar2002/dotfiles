@@ -1,8 +1,9 @@
 <h1 align="center">Welcome to Dotfiles 👋</h1>
-<p>
-  <a href="https://twitter.com/ShivamKumar212" target="_blank">
-    <img alt="Twitter: ShivamKumar212" src="https://img.shields.io/twitter/follow/ShivamKumar212.svg?style=social" />
-  </a>
+
+![dotfiles](https://socialify.git.ci/ShivamKumar2002/dotfiles/image?description=1&font=Raleway&forks=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/ShivamKumar2002?style=social" alt="shields"><img src="https://img.shields.io/github/stars/ShivamKumar2002/dotfiles?style=social" alt="shields"><img src="https://img.shields.io/github/last-commit/ShivamKumar2002/dotfiles?style=flat" alt="shields"><img src="https://img.shields.io/github/languages/top/ShivamKumar2002/dotfiles" alt="shields">
 </p>
 
 > Personal configuration for different things
