@@ -4,5 +4,11 @@ config:
   chmod_on_import: true
   dotpath: dotfiles-root
 dotfiles:
+  d_modules-load.d:
+    src: etc/modules-load.d
+    dst: /etc/modules-load.d
+    chmod: '755'
 profiles:
-
+  garuda:
+    dotfiles:
+    - d_modules-load.d
