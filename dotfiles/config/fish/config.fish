@@ -184,4 +184,6 @@ alias wget2_full_ios="wget2 -r --progress=bar -nH -E -U 'Mozilla/5.0 (iPhone; CP
 
 # dotdrop
 alias dotdrop="/home/shivam/.dotfiles/dotdrop.sh --cfg=/home/shivam/.dotfiles/config.yaml"
+alias dotdropr="/home/shivam/.dotfiles/dotdrop.sh --cfg=/home/shivam/.dotfiles/config-root.yaml"  # For managing root dotfiles
+
 
