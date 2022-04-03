@@ -1,0 +1,8 @@
+config:
+  backup: true
+  create: true
+  chmod_on_import: true
+  dotpath: dotfiles-root
+dotfiles:
+profiles:
+

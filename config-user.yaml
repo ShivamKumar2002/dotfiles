@@ -2,7 +2,7 @@ config:
   backup: true
   create: true
   chmod_on_import: true
-  dotpath: dotfiles
+  dotpath: dotfiles-user
 dotfiles:
   f_vimrc:
     src: vimrc
