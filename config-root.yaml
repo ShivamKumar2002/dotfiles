@@ -8,7 +8,12 @@ dotfiles:
     src: etc/modules-load.d
     dst: /etc/modules-load.d
     chmod: '755'
+  d_polkit-1:
+    src: etc/polkit-1
+    dst: /etc/polkit-1
+    chmod: '755'
 profiles:
   garuda:
     dotfiles:
     - d_modules-load.d
+    - d_polkit-1

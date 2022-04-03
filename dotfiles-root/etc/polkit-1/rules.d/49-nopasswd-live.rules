@@ -1,0 +1,8 @@
+/* Stop asking the user for a password while they are in a live session
+ */
+polkit.addRule(function(action, subject) {
+    if (subject.user == "garuda")
+    {
+        return polkit.Result.YES;
+    }
+});
