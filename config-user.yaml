@@ -24,6 +24,10 @@ dotfiles:
     src: config/kitty
     dst: ~/.config/kitty
     chmod: '755'
+  f_octaverc:
+    src: octaverc
+    dst: ~/.octaverc
+    chmod: '644'
 profiles:
   garuda:
     dotfiles:
@@ -32,3 +36,4 @@ profiles:
     - f_gtkrc-2.0
     - d_fish
     - d_kitty
+    - f_octaverc
