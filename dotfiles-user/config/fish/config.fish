@@ -183,7 +183,7 @@ alias aria2c_4p='aria2c -s4 -x4 -j4 -k 1M'
 alias wget2_full_ios="wget2 -r --progress=bar -nH -E -U 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1' --compression=gzip -k -l inf -p"
 
 # dotdrop
-alias dotdrop="/home/shivam/.dotfiles/dotdrop.sh --cfg=/home/shivam/.dotfiles/config.yaml"
-alias dotdropr="/home/shivam/.dotfiles/dotdrop.sh --cfg=/home/shivam/.dotfiles/config-root.yaml"  # For managing root dotfiles
+alias dotdrop="/home/shivam/.dotfiles/dotdrop.sh --cfg=/home/shivam/.dotfiles/config-user.yaml"
+alias dotdropr="sudo /home/shivam/.dotfiles/dotdrop.sh --cfg=/home/shivam/.dotfiles/config-root.yaml"  # For managing root dotfiles
 
 
