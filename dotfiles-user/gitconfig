@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input
 	editor = vim
+	askpass = /usr/bin/ksshaskpass
 [commit]
 	gpgsign = true
 	signingkey = E3914EC2C87B7513
